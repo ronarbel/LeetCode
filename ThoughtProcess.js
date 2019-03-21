@@ -3,10 +3,11 @@
 /*
 
 Order of problem solving thinking:
-- Use a set?
-- Use a hash?
-- Use two pointers?
-- Use counter instead of tracking indexes
+- Set?
+- Hash?
+- Two pointers?
+- Sliding window?
 
-
+- Counter instead of tracking indexes
+  - Use variable to track current lowest (like lowest drone fuel)
 */
