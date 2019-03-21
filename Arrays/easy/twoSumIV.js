@@ -31,3 +31,22 @@ var findTarget = function(root, k) {
   }
   return false
 };
+
+// -------- optimized solution -------- //
+var findTarget = function(root, k) {
+  let stack = [root];
+  let seen = new Set();
+  while (stack.length) {
+      let current = stack.pop();
+      let searchValue = k - current.val;
+      if (seen.has(searchValue)) {
+          return true;
+      } else {
+          seen.add(current.val);
+      }
+
+      if (current.right) stack.push(current.right);
+      if (current.left) stack.push(current.left);
+  }
+  return false;
+};
