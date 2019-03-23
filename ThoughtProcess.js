@@ -1,6 +1,9 @@
 
 /* eslint-disable */
 /*
+-If array is sorted
+  > Think binary search
+  > Think two pointers (start, end) or (rabbit, hare)
 
 Order of problem solving thinking:
 - Set?
@@ -10,6 +13,5 @@ Order of problem solving thinking:
 
 - Counter instead of tracking indexes
   - Use variable to track current lowest (like lowest drone fuel)
--If array is sorted
-  > Think binary search
+
 */
