@@ -10,4 +10,6 @@ Order of problem solving thinking:
 
 - Counter instead of tracking indexes
   - Use variable to track current lowest (like lowest drone fuel)
+-If array is sorted
+  > Think binary search
 */
